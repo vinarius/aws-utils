@@ -46,7 +46,8 @@
                 "iam:ListMFADevices",
                 "iam:ListVirtualMFADevices",
                 "iam:ResyncMFADevice",
-                "sts:GetSessionToken"
+                "sts:GetSessionToken",
+                "iam:ChangePassword"
             ],
             "Resource": "*",
             "Condition": {
